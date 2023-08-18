@@ -1,0 +1,25 @@
+:root{
+    --text_color:#1e1e1e;
+    --text_color_hover:#309054;
+}
+
+.logo{
+    color:var(--text_color);
+    font-weight: 500;
+    font-size: 1.5em;
+}
+.logo_icon{
+    color: #309054;
+}
+
+.item_navbar{
+    color: var(--text_color);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: all ease 0.2s;
+}
+
+.item_navbar:hover{
+    color:var(--text_color_hover)
+}

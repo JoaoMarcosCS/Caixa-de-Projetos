@@ -1,0 +1,2 @@
+Essa é a pasta que terá os componentes que aparecerão em todas as páginas, ou seja, que farão
+parte do layout de todas páginas como a barra de navegação e o footer

@@ -1,0 +1,47 @@
+npx create-react-app caixa_de_projetos 
+-cria uma aplicaço react
+
+npm install react-bootstrap bootstrap@5.3
+-instala a ultima versão do bootstrap
+
+npm install react-router-dom
+-instala o router para termos a dinamica de rotas
+
+npm start
+-inicia a execução da aplicação
+
+npm install react-icons --save
+-instala o pacote de icones do próprio react
+
+npm install json-server
+-instala o json server para simularmos um banco de dados
+
+npm install uuid 
+-para gerar id unicos
+
+npm i -g vercel
+-instala a vercel para fazermos o deploy do nosso projeto para web
+
+vercel --prod
+-atualiza o projeto, fazendo um update
+
+npm install --save aos@next
+-para usar o aos para os elementos aparecerem, mas antes, tem de fazer o import e inicialização
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+function meu_componente(){
+useEffect(() => {
+        AOS.init();
+      }, [])
+}
+
+npm install numeral
+-para instalar a biblioteca para formatar os números(estou usando a de baixo)
+
+npm install --save downshift
+-para instalar a biblioteca para fazer o autocomplete da barra de pesquisa
+
+npm i react-intl-number-format
+-para formatar para real

@@ -1,0 +1,20 @@
+.seta_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #039054;
+    animation: up-down linear infinite 1.5s;
+    font-size: 2.5em;
+    padding: 1em;
+}
+
+@keyframes up-down{
+    0%,100%{
+        transform: translateY(7px);
+    }
+    50%{
+        transform:translateY(-10px) ;
+    }
+    
+}

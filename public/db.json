@@ -1,0 +1,104 @@
+{
+  "projetos": [
+    {
+      "nome_projeto": "Propaganda publicitária",
+      "orcamento_inicial_projeto": "3000",
+      "categorias": {
+        "id": "4",
+        "name": "Logística"
+      },
+      "descricao_projeto": "propaganda",
+      "servicos": [],
+      "id": 2
+    },
+    {
+      "nome_projeto": "Comunicação e Expressão 1",
+      "orcamento_inicial_projeto": "1000",
+      "categorias": {
+        "id": "1",
+        "name": "Desenvolvimento"
+      },
+      "descricao_projeto": "Melhorias na comunicação e expressão ideias corporativas",
+      "servicos": [],
+      "id": 4
+    },
+    {
+      "nome_projeto": "Engenharia de Software 1",
+      "orcamento_inicial_projeto": "10000",
+      "categorias": {
+        "id": "4",
+        "name": "Logística"
+      },
+      "descricao_projeto": "Planejamento e levantamento de requisitos práticos para desenvolvimento de componentes de software",
+      "servicos": [],
+      "id": 5
+    },
+    {
+      "nome_projeto": "Sistemas de Informação",
+      "orcamento_inicial_projeto": "10000",
+      "categorias": {
+        "id": "5",
+        "name": "Infraestrutura"
+      },
+      "descricao_projeto": "O curso de sistema de informação serve basicamente para se ter um entendimento sobre como funcionam as redes, modelos de negócios, engenhria social e quais profissões são mais populares e bem pagas da atualidade",
+      "servicos": [],
+      "id": 6
+    },
+    {
+      "nome_projeto": "Calculo I",
+      "orcamento_inicial_projeto": "100001",
+      "categorias": {
+        "id": "2",
+        "name": "Planejamento"
+      },
+      "descricao_projeto": "Matéria sobre Derivadas de funções e integrais",
+      "servicos": [],
+      "id": 7
+    },
+    {
+      "nome_projeto": "Json-Server",
+      "orcamento_inicial_projeto": "9998",
+      "categorias": {
+        "id": "1",
+        "name": "Desenvolvimento"
+      },
+      "descricao_projeto": "Testando para ver se o json server está funcionando :)",
+      "servicos": [],
+      "id": 8
+    },
+    {
+      "nome_projeto": "Numero formatado",
+      "orcamento_inicial_projeto": "10000",
+      "categorias": {
+        "id": "1",
+        "name": "Desenvolvimento"
+      },
+      "descricao_projeto": "Para verificar o funcionamento da biblioteca number format",
+      "servicos": [],
+      "id": 9
+    }
+    
+  ],
+  "categorias": [
+    {
+      "nome_categoria": "Desenvolvimento",
+      "id_categoria": 1
+    },
+    {
+      "nome_categoria": "Planejamento",
+      "id_categoria": 2
+    },
+    {
+      "nome_categoria": "Design",
+      "id_categoria": 3
+    },
+    {
+      "nome_categoria": "Logística",
+      "id_categoria": 4
+    },
+    {
+      "nome_categoria": "Infraestrutura",
+      "id_categoria": 5
+    }
+  ]
+}

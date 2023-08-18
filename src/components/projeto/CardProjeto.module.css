@@ -1,0 +1,145 @@
+.card{
+    -webkit-box-shadow: -2px 5px 25px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 5px 25px -12px rgba(0,0,0,0.75);
+    box-shadow: -2px 5px 25px -12px rgba(0,0,0,0.75);
+    padding-bottom: 10px;
+    border-radius: 8px;
+    margin: 3px 10px;
+    width: 300px;
+    transition: all ease 1s;
+}
+
+.div_categoria,
+.div_descricao,
+.div_orcamento,
+.div_orcamento_atual,
+.div_servicos,
+.div_titulo{
+    /*
+    overflow: hidden;
+    text-overflow: ellipsis;
+    */
+    padding: 0px 7px;
+}
+
+
+.div_titulo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    align-items: center;
+    background-color: #309054;
+    border-radius: 8px;
+    margin: 3px 3px;
+}
+
+
+.titulo{
+    color: #1e1e1e;
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 80%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-direction: row;
+    font-size: 1.4em;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    color: #1e1e1e;
+}
+
+.btns:hover{
+    color: #0be75f;
+}
+
+
+.div_categoria{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_categoria p{
+    font-size: 1.5em;
+    color: #1e1e1e;
+    font-weight: 450;
+}
+
+.div_orcamento{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.div_orcamento p{
+    font-size: 1.4em;
+    color: #1e1e1e;
+    font-weight: 450;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.div_orcamento_atual{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_orcamento_atual p{
+    font-size: 1.4em;
+    color: #1e1e1e;
+    font-weight: 450;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.div_descricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all ease 2s;
+}
+
+.div_descricao p{
+    font-size: 1.2em;
+    font-weight: 450;
+    transition: all ease 2s;
+}
+
+.div_descricao p>span{
+    color: #309054;
+    font-size: 1.3em;
+}
+
+.descricao_text{
+    transition: all ease 2s;
+    color: #1e1e1e;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0px 5px;
+}
+
+.div_servicos{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
+
+.div_servicos p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    font-size: 1.2em;
+    font-weight: 450;
+}

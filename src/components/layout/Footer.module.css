@@ -1,0 +1,46 @@
+
+.footer{
+    color: #ebf1f1;
+    padding-top: 1em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: all ease 0.2s;
+    background-color: #050505;
+}
+
+.footer_nome{
+    animation: mudacor linear 7s infinite;
+}
+
+@keyframes mudacor {
+    0%,100%{
+        color: #fa0505;
+    }
+    20%{
+        color: #f2fa05;
+    }
+    40%{
+        color: #3efa05;
+    }
+    60%{
+        color: #05fafa;
+    }
+    80%{
+        color: #051dfa;
+    }
+    90%{
+        color: #fa05c1;
+    }   
+}
+
+.footer_link{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.footer_link p a{
+    color: #ebf1f1;
+    text-decoration: none;
+}

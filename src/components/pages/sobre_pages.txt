@@ -1,0 +1,1 @@
+Essa é a pasta que vai ter todos os componentes que serão nossas páginas

@@ -1,0 +1,22 @@
+#banner{
+    background-color: #309054;
+}
+
+.banner1{
+    font-size: 6em;
+    color: #050505;
+    letter-spacing: 1.4px;
+    font-weight: 450;
+
+}
+
+.banner2{
+    font-size: 5em;
+    color: #050505;
+    font-weight: 450;
+    letter-spacing: 0.5px;
+}
+
+.banner2 span{
+    color: #309054;
+}

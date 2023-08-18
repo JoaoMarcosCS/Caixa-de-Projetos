@@ -1,0 +1,16 @@
+.div_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    transition: all ease 1s;
+}
+
+.search{
+    border: none;
+    border-bottom: 1px solid #309450;
+    color: #309450;
+    outline: none;
+    width: 200px;
+}
